@@ -13,6 +13,7 @@ Sockets Links.
 4. Send and receive the message using the send function in socket.
 ## PROGRAM
 ### SERVER CODE:
+```PY
 import socket
 
 def start_server(host='127.0.0.1', port=65432):
@@ -40,7 +41,9 @@ def start_server(host='127.0.0.1', port=65432):
 
 if __name__ == "__main__":
     start_server()
+```
 ###  CLIENT CODE:
+```PY
 import socket
 
 def start_client(host='127.0.0.1', port=65432):
@@ -58,6 +61,7 @@ def start_client(host='127.0.0.1', port=65432):
 
 if __name__ == "__main__":
     start_client()
+```
 
 ## OUPUT
 ### SERVER :
